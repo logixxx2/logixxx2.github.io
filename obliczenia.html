@@ -1,13 +1,13 @@
 <html>
 <head>
-  <meta http-equiv="Content-type" content="text/html; charset=ISO-8859-2" />  
+  <meta charset="utf-8">  
   <title>[ Tytul dokumentu ]</title>
 </head>
 <body>
 <script language="JavaScript">
 
 function dodawanie() {
-/* Odwołanie do formularza i jego elementów przez nazwę*/
+/* OdwoÂłanie do formularza i jego elementĂłw przez nazwĂŞ*/
 var skl1=parseFloat(document.Form.a.value);
 var skl2=parseFloat(document.Form.b.value);
 var wynik = skl1+skl2;
@@ -18,15 +18,15 @@ alert(wynik);
 <form name="Form">
 a=<input type="Text" name="a"><br>
 b=<input type="Text" name="b"><br>
-<input type="Button" value="Oblicz sumę" onclick="dodawanie()">
+<input type="Button" value="Oblicz sumĂŞ" onclick="dodawanie()">
 </form>
 <hr>
 
 <script language="JavaScript">
 function odejmowanie() {
-/* Odwołanie do formularza i jego elementów przez indeks
-Formularz o nazwie jakas_wymyslona_nazwa1 jest drugim formularzem w dokumencie więc ma indeks równy 1
-Pole tekstowe o nazwie jakas_wymyslona_nazwa2 jest pierwszym elementem formularza więc ma indeks równy 0
+/* OdwoÂłanie do formularza i jego elementĂłw przez indeks
+Formularz o nazwie jakas_wymyslona_nazwa1 jest drugim formularzem w dokumencie wiĂŞc ma indeks rĂłwny 1
+Pole tekstowe o nazwie jakas_wymyslona_nazwa2 jest pierwszym elementem formularza wiĂŞc ma indeks rĂłwny 0
 */
 var skl1=parseFloat(document.forms[1].elements[0].value);
 var skl2=parseFloat(document.forms[1].elements[1].value);
@@ -40,15 +40,15 @@ alert(wynik);
 <form name="jakas_wymyslona_nazwa1">
 a=<input type="Text" name="jakas_wymyslona_nazwa2"><br>
 b=<input type="Text" name="jakas_wymyslona_nazwa3"><br>
-<input type="Button" value="Oblicz różnicę" onclick="odejmowanie()">
+<input type="Button" value="Oblicz rĂłÂżnicĂŞ" onclick="odejmowanie()">
 </form>
 
 
 
 <script language="JavaScript">
 
-function mnożenie() {
-/* Odwołanie do formularza i jego elementów przez nazwę*/
+function mnoÂżenie() {
+/* OdwoÂłanie do formularza i jego elementĂłw przez nazwĂŞ*/
 var skl1=parseFloat(document.Form1.a.value);
 var skl2=parseFloat(document.Form1.b.value);
 var wynik = skl1*skl2;
@@ -59,14 +59,14 @@ alert(wynik);
 <form name="Form1">
 a=<input type="Text" name="a"><br>
 b=<input type="Text" name="b"><br>
-<input type="Button" value="Oblicz iloraz" onclick="mnożenie()">
+<input type="Button" value="Oblicz iloraz" onclick="mnoÂżenie()">
 </form>
 <hr>
 
 <script language="JavaScript">
 
 function dzielenie() {
-/* Odwołanie do formularza i jego elementów przez nazwę*/
+/* OdwoÂłanie do formularza i jego elementĂłw przez nazwĂŞ*/
 var skl1=parseFloat(document.Form2.a.value);
 var skl2=parseFloat(document.Form2.b.value);
 var wynik = skl1/skl2;
@@ -83,3 +83,4 @@ b=<input type="Text" name="b"><br>
 
 </body>
 </html>
+
